@@ -28,8 +28,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Diksha-xyz/sentiment-analysis-twitter.git
-   cd sentiment-analysis-twitter(https://github.com/Diksha-xyz/Sentiment-Analyses-Model.git)
+   [git clone https://github.com/Diksha-xyz/sentiment-analysis-twitter.git
+   cd sentiment-analysis-twitter](https://github.com/Diksha-xyz/Sentiment-Analyses-Model.git)
 
 2. **Install dependencies:**
 
