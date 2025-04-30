@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   [git clone https://github.com/Diksha-xyz/sentiment-analysis-twitter.git
+   git clone [https://github.com/Diksha-xyz/sentiment-analysis-twitter.git
    cd sentiment-analysis-twitter](https://github.com/Diksha-xyz/Sentiment-Analyses-Model.git)
 
 2. **Install dependencies:**
@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
    streamlit run app.py
 4. **Access the application:**
 
-Open your browser and navigate to [https://pharmamap-health.netlify.app](https://pharmamap-health.netlify.app)
+Open your browser and navigate to [https://sentiment-analyses-model-vhowzc5tni827s4re9ygy8.streamlit.app/](https://sentiment-analyses-model-vhowzc5tni827s4re9ygy8.streamlit.app/)
 
 ## Model Details
 
