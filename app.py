@@ -19,15 +19,14 @@ model, vectorizer = load_model()
 # ---------- Preprocess Function ----------
 def preprocess(text):
     text = text.lower()
-    text = re.sub(r"http\S+|www\S+|https\S+", '', text)  # Remove URLs
-    text = re.sub(r'\@w+|\#', '', text)  # Remove @mentions and hashtags
-    text = text.translate(str.maketrans('', '', string.punctuation))  # Remove punctuation
-    text = re.sub(r'\d+', '', text)  # Remove digits
-    text = re.sub(r'\s+', ' ', text).strip()  # Remove extra spaces
+    text = re.sub(r"http\S+|www\S+|https\S+", '', text)  
+    text = re.sub(r'\@w+|\#', '', text) 
+    text = text.translate(str.maketrans('', '', string.punctuation))  
+    text = re.sub(r'\d+', '', text)  
+    text = re.sub(r'\s+', ' ', text).strip()  
     return text
 
 # ---------- Streamlit App ----------
-st.set_page_config(page_title="Twitter Sentiment Analyzer", layout="centered")
 
 st.title("💬 Twitter Sentiment Analyzer")
 st.write("Enter a tweet below to analyze its sentiment using a trained Logistic Regression model.")
