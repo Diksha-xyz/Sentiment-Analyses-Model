@@ -12,24 +12,42 @@ The model has been optimized using **GridSearchCV** to find the best hyperparame
 - Sentiment classification into **Positive**, **Negative**, and **Neutral**.
 - Interactive web app built using **Streamlit** for real-time sentiment prediction.
 
+## Requirements
+The following Python libraries are required to run the project:
+
+- scikit-learn
+- pandas
+- numpy
+- nltk
+- streamlit
+
 ## Installation
 
-1. Clone the repository:
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/your-username/sentiment-analysis-twitter.git
+   git clone https://github.com/Diksha-xyz/sentiment-analysis-twitter.git
    cd sentiment-analysis-twitter
-# Clone the repository
-git clone https://github.com/your-username/sentiment-analysis-twitter.git
-cd sentiment-analysis-twitter
 
-# Create a virtual environment (optional but recommended)
-python -m venv venv
+2. **Install dependencies:**
 
-# On macOS/Linux, activate the virtual environment
-source venv/bin/activate
+   ```bash
+   pip install -r requirements.txt
+3. **Run the application:**
 
-# On Windows, activate the virtual environment
-# venv\Scripts\activate
+   ```bash
+   streamlit run app.py
+4. **Access the application:**
 
-# Install the required dependencies
-pip install -r requirements.txt
+Open your browser and navigate to [https://pharmamap-health.netlify.app](https://pharmamap-health.netlify.app)
+
+## Model Details
+
+- **Logistic Regression**: Used for classification to categorize tweets into Positive, Negative, or Neutral sentiments.
+  
+- **TF-IDF Vectorizer**: Converts text data into numerical form, allowing the machine learning model to work with the text data effectively.
+
+- **GridSearchCV**: Optimizes hyperparameters for the best Logistic Regression model, ensuring improved accuracy and performance.
+
